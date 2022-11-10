@@ -1,0 +1,53 @@
+/* navbar */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.7s;
+    padding: 5px 5px;
+    z-index: 10;
+    font-weight: bold
+    
+
+}
+a{
+    font-weight: 100;
+}
+
+header.abajo{
+    background: #fff;
+}
+
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: url(/img/prueba.jfif);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.dark{
+    color: rgb(0, 0, 0);
+}
+
+ @media(min-width: 1000px){
+    .nosotros{
+        margin: 0;   
+    } 
+ }
+/* texto principal */
+.text-p{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+
+}
+.t-top-img{
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
