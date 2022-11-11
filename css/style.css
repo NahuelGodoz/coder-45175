@@ -60,8 +60,8 @@ header.abajo{
 .zona1-menu{
     position: relative;
     width: 100%;
-    height: 100vh;
-    background: url(/img/fondo-m.jpg);
+    height: 60vh;
+    background: url(/img/fondo-m2.jpg);
     background-size: cover;
     background-position: center center;}
     
@@ -74,3 +74,15 @@ header.abajo{
     background: url(/img/puede.jpg);
     background-size: cover;
     background-position: center center}
+
+    .zona1-c {
+        
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    height:  60vh;
+    background: url(/img/ct-imagen.jpg);
+    background-size: cover;
+    background-position: center center}
+
+    
