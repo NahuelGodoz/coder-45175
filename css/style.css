@@ -1,4 +1,9 @@
 /* navbar */
+body{
+    overflow-x: hidden;
+ }
+
+/* navbar */
 header{
     position: fixed;
     top: 0;
@@ -19,25 +24,15 @@ header.abajo{
     background: #fff;
 }
 
-.zona1{
-    position: relative;
-    width: 100%;
-    height: 110vh;
-    background: url(/img/prueba.jfif);
-    background-size: cover;
-    background-position: center center;
-}
-
-
+/* colores */
 .dark{
     color: rgb(0, 0, 0);
 }
 
- @media(min-width: 1000px){
-    .nosotros{
-        margin: 0;   
-    } 
- }
+.white{
+    color: #fff;
+}
+ 
 /* texto principal */
 .text-p{
     display: flex;
@@ -51,3 +46,46 @@ header.abajo{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
+<<<<<<< Updated upstream
+footer{
+    padding: 200px;
+}
+=======
+
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: url(/img/prueba.jfif);
+    background-size: cover;
+    background-position: center center;
+}
+
+.zona1-menu{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/img/fondo-m.jpg);
+    background-size: cover;
+    background-position: center center;}
+    
+ .zona3{
+    margin-top: 50px;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    height:  50vh;
+    background: url(/img/puede.jpg);
+    background-size: cover;
+    background-position: center center
+ }
+
+
+
+
+ /* animacion card menu */
+
+
+ 
+>>>>>>> Stashed changes
