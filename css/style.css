@@ -47,11 +47,6 @@ header.abajo{
     color: rgb(255, 255, 255);
 }
 
-<<<<<<< Updated upstream
-footer{
-    padding: 200px;
-}
-=======
 
 .zona1{
     position: relative;
@@ -78,14 +73,4 @@ footer{
     height:  50vh;
     background: url(/img/puede.jpg);
     background-size: cover;
-    background-position: center center
- }
-
-
-
-
- /* animacion card menu */
-
-
- 
->>>>>>> Stashed changes
+    background-position: center center}
