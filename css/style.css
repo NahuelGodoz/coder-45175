@@ -75,6 +75,7 @@ header.abajo{
     background-size: cover;
     background-position: center center}
 
+      /* pagina conctato */
     .zona1-c {
         
     padding: 50px;
@@ -84,5 +85,11 @@ header.abajo{
     background: url(/img/ct-imagen.jpg);
     background-size: cover;
     background-position: center center}
+    
+/* pagina conctato */
+    .img-p{
+        display: flex;
+
+    }
 
     
