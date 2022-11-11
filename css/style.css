@@ -60,7 +60,7 @@ header.abajo{
 .zona1-menu{
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     background: url(/img/fondo-m2.jpg);
     background-size: cover;
     background-position: center center;}
@@ -75,9 +75,19 @@ header.abajo{
     background-size: cover;
     background-position: center center}
 
-      /* pagina conctato */
-    .zona1-c {
+    /* pagina nosotros */
+    .zona1-d {
+        padding: 50px;
+        position: relative;
+        width: 100%;
+        height:  70vh;
+        background: url(/img/fond-\ cont.jpg);
+        background-size: cover;
+        background-position: center center}
         
+    
+      /* pagina contacto */
+    .zona1-c {  
     padding: 50px;
     position: relative;
     width: 100%;
@@ -90,6 +100,17 @@ header.abajo{
     .img-p{
         display: flex;
 
+    
     }
 
-    
+    /* animatic */
+    @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+    .scale-up-center{animation:scale-up-center .6s cubic-bezier(.39,.575,.565,1.000) both}
+
+    /* tablet o movil*/
+    @media(max-width: 768px){
+        .display{
+            display: none;
+        }
+    }
+   
