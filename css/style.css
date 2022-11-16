@@ -52,7 +52,7 @@ header.abajo{
     position: relative;
     width: 100%;
     height: 110vh;
-    background: url(/img/prueba.jfif);
+    background: url(./img/prueba.jfif);
     background-size: cover;
     background-position: center center;
 }
@@ -61,7 +61,7 @@ header.abajo{
     position: relative;
     width: 100%;
     height: 65vh;
-    background: url(/img/fondo-m2.jpg);
+    background: url(./img/fondo-m2.jpg);
     background-size: cover;
     background-position: center center;}
     
@@ -71,7 +71,7 @@ header.abajo{
     position: relative;
     width: 100%;
     height:  50vh;
-    background: url(/img/puede.jpg);
+    background: url(./img/puede.jpg);
     background-size: cover;
     background-position: center center}
 
@@ -81,7 +81,7 @@ header.abajo{
         position: relative;
         width: 100%;
         height:  70vh;
-        background: url(/img/fond-\ cont.jpg);
+        background: url(./img/fond-\ cont.jpg);
         background-size: cover;
         background-position: center center}
         
@@ -92,7 +92,7 @@ header.abajo{
     position: relative;
     width: 100%;
     height:  60vh;
-    background: url(/img/ct-imagen.jpg);
+    background: url(./img/ct-imagen.jpg);
     background-size: cover;
     background-position: center center}
     
