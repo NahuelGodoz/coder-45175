@@ -1,6 +1,7 @@
-/* navbar */
+
 body{
     overflow-x: hidden;
+    max-width: 100%;
  }
 
 /* navbar */
@@ -13,8 +14,6 @@ header{
     padding: 5px 5px;
     z-index: 10;
     font-weight: bold
-    
-
 }
 a{
     font-weight: 100;
@@ -68,7 +67,7 @@ header.abajo{
 /* footer */
  .zona3{
     margin-top: 50px;
-    padding: 50px;
+    padding: 30px;
     position: relative;
     width: 100%;
     height:  30%;
@@ -88,7 +87,7 @@ header.abajo{
 
     /* pagina nosotros */
     .zona1-d {
-        padding: 50px;
+        padding: 30px;
         position: relative;
         width: 100%;
         height:  70vh;
@@ -102,12 +101,12 @@ header.abajo{
     padding: 50px;
     position: relative;
     width: 100%;
-    height:  60vh;
+    height:  70vh;
     background: url(../img/ct-imagen.jpg);
     background-size: cover;
     background-position: center center}
     
-/* pagina conctato */
+    /* pagina conctato */
     .img-p{
         display: flex;
 
@@ -124,4 +123,17 @@ header.abajo{
             display: none;
         }
     }
-   
+
+    @media(min-width: 992px){
+    
+    .rowcell{
+       display: flex;
+    }
+    }
+    
+    @media(max-width: 0px){
+    
+        .conteinter1{
+            width: 100%;
+        }
+        }
